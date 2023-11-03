@@ -1,7 +1,6 @@
-import org.pp2.ComandoDeshabilitadoException;
 import org.pp2.Dispositivo;
 import org.pp2.DispositivoObserver;
-import org.pp2.time.LocalTimeService;
+import time.LocalTimeService;
 
 import java.time.LocalDateTime;
 import java.time.LocalTime;
