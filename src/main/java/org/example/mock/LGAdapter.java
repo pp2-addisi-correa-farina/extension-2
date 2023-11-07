@@ -1,6 +1,5 @@
 package org.example.mock;
 import org.pp2.Dispositivo;
-import org.pp2.DispositivoObserver;
 
 public class LGAdapter implements Dispositivo {
 
@@ -28,14 +27,5 @@ public class LGAdapter implements Dispositivo {
             break;
             default: throw new IllegalArgumentException("Comando inexistente");
         }
-    }
-
-    @Override
-    public void registrarObserver(DispositivoObserver observer) {
-    }
-
-    @Override
-    public void eliminarObserver() {
-
     }
 }
